@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background: lightgray;
+    padding-bottom: 50px;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    padding-left:500px ;
+}
+.header__Heading{
+    font-size:20px;
+}
+
+.main__boxes__item{
+    display: flex;
+    flex-direction: column;
+    padding-left: 500px;
+}
+.main__boxes__item__images{
+    display: flex;
+    flex-direction: row;
+    column-gap: 80px;
+}
